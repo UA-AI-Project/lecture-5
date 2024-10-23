@@ -1,6 +1,7 @@
 # Research Plan - [NAME]
 
-The goal of this assignment is to create a first version of the research plan that you will execute for your Artificial Intelligence Project.
+The goal of this assignment is to create a first version of the research plan that you will execute for your Artificial Intelligence Project,
+which you will continue to iterate on and refine.
 To do so, you will fill out this MarkDown (md) file.
 
 Your task is to fill out all the sections that have a [TODO] tag, following the instructions provided to guide you through each step. 
@@ -142,15 +143,47 @@ what measures you will take in the design of your experiment to ensure it is.
 
 ### Aspects of Offline Experimental Design
 
+Finally, we can move on to the seven aspects of offline experimental design:
+- Data Selection
+- Data Preprocessing
+- Data Splitting
+- Selection of Baselines
+- Hyperparameter Tuning
+- Metric Selection
+
+Our goal is to make experimental design decisions that will increase the validity of the result to support our evaluation objective. 
+
+### Dataset Selection
+
+Although the dataset has already been selected for your artificial intelligence project, it is still helpful to think about its properties
+and what parts of the dataset you will use. 
+
+#### Task 
+Please answer the following questions in the context of the dataset you will use for this project:
+- When was the dataset collected?
+- Over which timespan?
+- In which region?
+- What sampling/filtering strategy was applied?
+- How did users find the items in the dataset?
+- What are the dataset statistics?
+
+#### Answer
+
+[TODO] 
+
+
+
 ### Data Preprocessing
 
 #### Task
 
-Please answer the following questions in the context of the evaluation objectives you had in mind for your project:
-- What is my hypothesis/research question? 
-- Do I have a clear hypothesis, rooted in theory, or should I pose a research question instead?
-- What theory is my hypothesis based on? 
-- Is this theory based on observations, intuition or is it a proven theory? 
+Please answer the following questions in the context of the hypothesis/research question you had in mind for your project:
+- Why do you want to filter, sample or otherwise preprocess the datasets?
+- What types of filters/feature engineering do you want to apply?
+- What is the best way to apply it?
+- How does this filtering affect the dataset characteristics?
+- How could my feature engineering introduce leakages?
+- Is the sampled/filtered/processed dataset still representative of the original dataset? 
 
 #### Answer
 
@@ -159,14 +192,60 @@ Please answer the following questions in the context of the evaluation objective
 
 ### Data Splitting
 
+#### Task 
+Please answer the following questions in the context of the hypothesis/research question you had in mind for your project:
+- Do we have sufficient users in the datasets to split users into different sets?
+- How large a timeframe span our datasets?
+- Can I split it in a time-aware fashion? 
+- Is the order of interactions likely important in this application domain?
+- Are there large differences in the lengths of users’ interaction histories in the datasets?
+- Do all users have reasonably long interaction histories, such that we may assume their preferences are well-known?
+- In what way will I split the dataset? 
+
+#### Answer
+
+[TODO]
+
 
 ### Selection of Baselines
+
+#### Task 
+Please answer the following questions in the context of the hypothesis/research question you had in mind for your project:
+- What other recommendation algorithms have been published recently that address the desired property and goal? 
+- What general-purpose baselines have been shown to have good performance, and reasonable computational load, on this dataset, or, in this application domain?
+
+#### Answer
+
+[TODO] 
 
 
 ### Hyperparameter Tuning
 
+#### Task 
+Please answer the following questions in the context of the hypothesis/research question you had in mind for your project:
+- Which hyperparameters do the recommendation algorithms in this offline evaluation experiment have? 
+- What is a reasonable range of values they may take, and we should explore? 
+- Should we use random search or TPEs to optimize hyperparameters? 
+- What target metric should we set? 
+- How sensitive is the recommendation algorithm to (small) changes in the hyperparameter values?
+
+#### Answer
+
+[TODO] 
+
 
 ### Metric Selection
+
+#### Task 
+Please answer the following questions in the context of the hypothesis/research question you had in mind for your project:
+- Which metric should I use to measure my desired properties?
+- Does this metric truly measure the desired property related to our evaluation goal? 
+- Has this metric been validated and shown to be a good proxy? 
+- What will we optimize the hyperparameters of all recommendation algorithms under comparison for?
+
+#### Answer
+
+[TODO] 
 
 
 

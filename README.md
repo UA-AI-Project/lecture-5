@@ -6,7 +6,12 @@ The goal of this assignment is to develop the first version of your research pla
 
 ## Instructions
 
-1. **
+1. **Working with the Research Plan**:
+
+    - Open the provided MarkDown file: research-plan.md.
+    - Follow the instructions carefully. Each section will guide you through a specific part of the task, resulting in a complete research plan.
+    - Be aware that this assignment is open-ended: You are not required to answer every question listed. The questions are there to help you come up with a cohesive research plan. 
+    - Tasks that require your input or completion are clearly marked with Task and [TODO] tags. Fill in these sections.
 
 2. **Submission**:
     - Save the completed research-plan.md and submit it via GitHub Classroom.
