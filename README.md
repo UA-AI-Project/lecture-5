@@ -18,12 +18,11 @@ The goal of this assignment is to develop the first version of your research pla
 
 ## Questions or Issues?
 
-If you encounter any issues or have questions, please use the course Discord to pose your question to your peers first.
-If you and others share the same questions about the task, or if you have uncovered bugs, please reach out to the instructors via mail
+If you have questions about the task please reach out to the instructors via mail
 
 - Lien (lien.michiels@uantwerpen.be)
 - Jens (jens.leysen@uantwerpen.be)
-- Basil (basil.rommens@uantwerpen.be)
+- Noah (noah.daniels@uantwerpen.be)
 
 
 
